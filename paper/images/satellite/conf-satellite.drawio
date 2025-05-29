@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0" version="27.0.8">
+  <diagram name="Page-1" id="OiQM4WDgwtNsMnTPWwNN">
+    <mxGraphModel dx="1259" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-17" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-14" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;strokeColor=default;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="30" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-13" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;glass=0;opacity=50;" parent="1" vertex="1">
+          <mxGeometry x="160" y="30" width="250" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-1" value="Attacker" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-2" value="Web server" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-3" value="DNS resolver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-4" value="Authoritative DNS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-5" value="&lt;div&gt;Command-and-Control server (C2)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-7" value="Satellite" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="310" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="430" y="30" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-18" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;" parent="1" vertex="1">
+          <mxGeometry x="440" y="47.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-20" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="440" y="75" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-21" value="Internet" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="67.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-28" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="440" y="105" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-29" value="DMZ" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="97.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-31" value="Internal network" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="42.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p3BkjcYXmnH80hasmFMF-3" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="440" y="135" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p3BkjcYXmnH80hasmFMF-4" value="Optional" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

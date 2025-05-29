@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0" version="27.0.8">
+  <diagram name="Page-1" id="OiQM4WDgwtNsMnTPWwNN">
+    <mxGraphModel dx="793" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-13" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;glass=0;opacity=50;" parent="1" vertex="1">
+          <mxGeometry x="30" y="20" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-1" value="Attacker" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="35" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-2" value="Game server" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="35" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="280" y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-18" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="40" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="raZ2XwU40IR1KIGuw5wc-31" value="Internet" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="35" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

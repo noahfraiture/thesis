@@ -1,0 +1,168 @@
+[
+    {
+        "id": "87cf72a34749d264",
+        "type": "debug",
+        "z": "5098e0c60746ae3e",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 700,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "58810c9774e2209b",
+        "type": "mqtt in",
+        "z": "5098e0c60746ae3e",
+        "name": "",
+        "topic": "light/control",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "fc9b8c6fff0befc7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 400,
+        "wires": [
+            [
+                "8523b395a222389b"
+            ]
+        ]
+    },
+    {
+        "id": "8523b395a222389b",
+        "type": "function",
+        "z": "5098e0c60746ae3e",
+        "name": "request",
+        "func": "let lastMsg = flow.get('lastMessage') || \"\"\nlet curr = msg.payload\n\nflow.set(\"lastMessage\", curr)\nif (curr === \"reset\") {\n    if (lastMsg === \"reset\") {\n        curr = \"on\"\n    } else {\n        curr = lastMsg\n    }\n}\n\nmsg.payload = {command: curr}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 460,
+        "wires": [
+            [
+                "87cf72a34749d264",
+                "f708ce3ef2f14b23"
+            ]
+        ]
+    },
+    {
+        "id": "2166bd3437797a6c",
+        "type": "inject",
+        "z": "5098e0c60746ae3e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "reset",
+        "payloadType": "str",
+        "x": 270,
+        "y": 500,
+        "wires": [
+            [
+                "8523b395a222389b"
+            ]
+        ]
+    },
+    {
+        "id": "f708ce3ef2f14b23",
+        "type": "http request",
+        "z": "5098e0c60746ae3e",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://10.0.2.2:8081",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "Content-Type",
+                "valueType": "other",
+                "valueValue": "application/json"
+            }
+        ],
+        "x": 710,
+        "y": 560,
+        "wires": [
+            [
+                "2550fd11c31f6df2"
+            ]
+        ]
+    },
+    {
+        "id": "2550fd11c31f6df2",
+        "type": "debug",
+        "z": "5098e0c60746ae3e",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "fc9b8c6fff0befc7",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]

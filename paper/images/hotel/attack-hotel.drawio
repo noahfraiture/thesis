@@ -1,0 +1,224 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0" version="27.0.8">
+  <diagram name="Page-1" id="YrxbDLgfzF-psmu8SgCK">
+    <mxGraphModel dx="2361" dy="1545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-1" target="c9mNuHGgu_CkPdpqZBWn-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YeZ7bZoPVD0CCk8CQTD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c9mNuHGgu_CkPdpqZBWn-1" target="c9mNuHGgu_CkPdpqZBWn-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-300" y="295" />
+              <mxPoint x="-300" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9YeZ7bZoPVD0CCk8CQTD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c9mNuHGgu_CkPdpqZBWn-1" target="c9mNuHGgu_CkPdpqZBWn-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YeZ7bZoPVD0CCk8CQTD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="c9mNuHGgu_CkPdpqZBWn-1" target="c9mNuHGgu_CkPdpqZBWn-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-300" y="295" />
+              <mxPoint x="-300" y="332" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="230" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-2" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Bypass authentication&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1190&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Access the camera software and bypass authentication with CVE-2017-7921&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="1" vertex="1">
+          <mxGeometry x="-275" y="238.64" width="265" height="111.36" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-3" target="c9mNuHGgu_CkPdpqZBWn-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-3" target="c9mNuHGgu_CkPdpqZBWn-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-3" target="c9mNuHGgu_CkPdpqZBWn-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="380" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-4" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;SSH to the server with found credentials&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1078.002&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Use the found credentials to connect with ssh to the server&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="1" vertex="1">
+          <mxGeometry x="-335" y="388.64" width="375" height="91.36" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-7" target="c9mNuHGgu_CkPdpqZBWn-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-9" target="c9mNuHGgu_CkPdpqZBWn-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-11" target="c9mNuHGgu_CkPdpqZBWn-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-13" target="c9mNuHGgu_CkPdpqZBWn-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-15" target="c9mNuHGgu_CkPdpqZBWn-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-21" target="c9mNuHGgu_CkPdpqZBWn-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-21" value="AND" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-530" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-22" target="c9mNuHGgu_CkPdpqZBWn-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-22" value="AND" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-287.5" y="775" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-23" target="c9mNuHGgu_CkPdpqZBWn-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-23" target="c9mNuHGgu_CkPdpqZBWn-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-23" value="OR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="1020" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-24" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-530" y="240" width="210" height="35.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-25" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-24" vertex="1">
+          <mxGeometry width="210" height="35.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-26" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Camera image (black)&lt;/h2&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;align=center;" parent="c9mNuHGgu_CkPdpqZBWn-24" vertex="1">
+          <mxGeometry x="10.5" width="191.1" height="27.27" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-28" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-540" y="314.55" width="220" height="35.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-28" vertex="1">
+          <mxGeometry width="220" height="35.45000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-30" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Credentials of camera software&lt;/h2&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;align=center;" parent="c9mNuHGgu_CkPdpqZBWn-28" vertex="1">
+          <mxGeometry x="14.473684210526315" y="0.0009090909090900827" width="191.05263157894734" height="27.272727272727284" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-31" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-550" y="277.28" width="230" height="35.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-31" vertex="1">
+          <mxGeometry width="230.00000000000006" height="35.45000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-33" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Camera configuration&lt;/h2&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;align=center;" parent="c9mNuHGgu_CkPdpqZBWn-31" vertex="1">
+          <mxGeometry x="15.131578947368425" y="0.0009090909090900827" width="199.73684210526318" height="27.272727272727284" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-39" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-600" y="30" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-39" vertex="1">
+          <mxGeometry width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-35" value="&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;IP of camera&amp;nbsp;&lt;/h2&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;HTTP port open with Hikvision running on version vulnerable to CVE-2017-7921&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-39" vertex="1">
+          <mxGeometry x="15" y="8.64" width="265" height="81.36" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-40" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-540" y="140" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-40" vertex="1">
+          <mxGeometry width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-37" value="&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;IP of dashboard server&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica; white-space: normal;&quot;&gt;SSH, MQTT port open&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-40" vertex="1">
+          <mxGeometry x="15" y="8.640000000000015" width="204" height="68.63" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-46" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-287.5" y="60" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-46" vertex="1">
+          <mxGeometry width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-9" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Network Service Discovery&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1046&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Find the IPs of a camera and the server that controls the IoT devices&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-46" vertex="1">
+          <mxGeometry x="15" y="8.64" width="250" height="111.36" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8Rnsziw4uOwpHe0W4yz_-8" target="c9mNuHGgu_CkPdpqZBWn-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-66" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-165" y="670" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-66" vertex="1">
+          <mxGeometry width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-8" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Turn on the light&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1499.003&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;The camera receives keep alive message. Make mosquitto crash to turns on the light CVE-2017-7651&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-66" vertex="1">
+          <mxGeometry x="15" y="8.6400000000001" width="335" height="101.36" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-67" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-485" y="530" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-67" vertex="1">
+          <mxGeometry width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-10" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Get authentication credentials&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1083&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Enumerate the machine to get a auth token in the environment variables&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-67" vertex="1">
+          <mxGeometry x="15" y="8.639999999999986" width="275" height="111.36" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-68" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-810" y="530" width="300" height="121.36000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-68" vertex="1">
+          <mxGeometry width="300" height="121.36" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-12" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Get route to control camera&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1083&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Enumerate the machine to find a command with a route in .bash_history (/next)&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-68" vertex="1">
+          <mxGeometry x="15" y="8.639999999999986" width="285" height="102.72" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-69" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-640" y="730" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-69" vertex="1">
+          <mxGeometry width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-14" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Change camera to next room&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1190&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Use the found token to switch to the next camera, changing the images available&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-69" vertex="1">
+          <mxGeometry x="15" y="8.6400000000001" width="275" height="101.36" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c9mNuHGgu_CkPdpqZBWn-5" target="c9mNuHGgu_CkPdpqZBWn-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-71" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-432.5" y="870" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-71" vertex="1">
+          <mxGeometry width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-16" value="&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Room of criminal of criminal&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: normal;&quot;&gt;At this point, we have an image from the room of the criminal with him and from the corridor showing the unlocked door with a robot nearby&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-71" vertex="1">
+          <mxGeometry x="15" y="8.6400000000001" width="335" height="91.36" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-72" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-150" y="1020" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-72" vertex="1">
+          <mxGeometry width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-20" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Lock the door with remote control&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1574&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Use polymorphic binary technic to control the lock by changing the name of &quot;robot&quot; to &quot;lock&quot;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-72" vertex="1">
+          <mxGeometry x="15" y="8.6400000000001" width="345" height="111.36" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-73" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-690" y="1010" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-73" vertex="1">
+          <mxGeometry width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-18" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Block the door with the robot&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1140&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Read a C compiled program &quot;robot&quot; and find a obfuscated password. Use it on the program to make the robot advance on the door and block it&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="c9mNuHGgu_CkPdpqZBWn-73" vertex="1">
+          <mxGeometry x="15" y="8.6400000000001" width="305" height="121.36" as="geometry" />
+        </mxCell>
+        <mxCell id="9YeZ7bZoPVD0CCk8CQTD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-8" target="c9mNuHGgu_CkPdpqZBWn-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YeZ7bZoPVD0CCk8CQTD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-8" target="c9mNuHGgu_CkPdpqZBWn-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="530" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c9mNuHGgu_CkPdpqZBWn-6" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Find MQTT software and version&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1046&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Find that mosquitto run on the dashboard server with version 1.4.14&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" parent="1" vertex="1">
+          <mxGeometry x="-125" y="538.64" width="295" height="101.36" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

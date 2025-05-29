@@ -1,0 +1,213 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0" version="27.0.8">
+  <diagram name="Page-1" id="YrxbDLgfzF-psmu8SgCK">
+    <mxGraphModel dx="1847" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="30" y="140" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-6">
+          <mxGeometry width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-2" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Enumerate website&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1595.003&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Enumerate path of the website to find /admin page&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-6">
+          <mxGeometry x="15" y="10" width="175" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-8" target="8Rnsziw4uOwpHe0W4yz_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-21" target="8Rnsziw4uOwpHe0W4yz_-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-21" value="AND" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-15" target="8Rnsziw4uOwpHe0W4yz_-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="280" />
+              <mxPoint x="265" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-1" target="8Rnsziw4uOwpHe0W4yz_-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="280" />
+              <mxPoint x="235" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="435" y="280" width="190" height="35.44999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-30">
+          <mxGeometry width="190" height="35.45" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-28" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Admin Credentials&lt;/h2&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;align=center;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-30">
+          <mxGeometry x="12.5" y="0.0009090909090900823" width="165" height="27.272727272727273" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="230" y="30" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-33">
+          <mxGeometry width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-9" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Enumerate sqlite database&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1213&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;The game has a field vulnerable to sql injection&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-33">
+          <mxGeometry x="15" y="4.545454545454545" width="295" height="86.36363636363636" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-34" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="255" y="150" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-34">
+          <mxGeometry width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-15" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Decode the credentials&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1140&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Decode the password found in base64&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-34">
+          <mxGeometry x="15" y="10" width="245" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-36" target="8Rnsziw4uOwpHe0W4yz_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="350" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-37" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Connect to admin dashboard&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1078&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Use found credentials to pass the authentication portal on /admin&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="265" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-51" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="405" y="532.28" width="170" height="35.45" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-45" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-51">
+          <mxGeometry width="170" height="35.44999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-46" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;SSH public key&lt;/h2&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;align=center;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-51">
+          <mxGeometry x="11.18421052631579" y="0.0009090909090900812" width="147.6315789473684" height="27.27272727272724" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-52" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="405" y="672.28" width="167.5" height="35.45" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-48" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-52">
+          <mxGeometry width="167.5" height="35.44999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-49" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;SSH private key&lt;/h2&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;align=center;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-52">
+          <mxGeometry x="11.019736842105262" y="0.0009090909090900812" width="145.46052631578948" height="27.27272727272724" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-53" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="125" y="490" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-39" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-53">
+          <mxGeometry width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-40" value="&lt;div&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Path traversal&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1083&lt;/pre&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Find an authorized public ssh key with path traversal in the URL&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-53">
+          <mxGeometry x="15" y="10" width="225" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-54" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="130" y="630" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-42" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-54">
+          <mxGeometry width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-43" value="&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Find leaked private key&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1593.003&lt;/pre&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: normal;&quot;&gt;Find the private key associated on github to connect to the server&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-54">
+          <mxGeometry x="15" y="10" width="225" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-39" target="8Rnsziw4uOwpHe0W4yz_-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-43" target="8Rnsziw4uOwpHe0W4yz_-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-39" target="8Rnsziw4uOwpHe0W4yz_-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-14" target="8Rnsziw4uOwpHe0W4yz_-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-80" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="690" y="630" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-63" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-80">
+          <mxGeometry width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-64" value="&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Connect to the game server&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;T1078&lt;/pre&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: normal;&quot;&gt;Use the found private key to connect to the server of the game&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-80">
+          <mxGeometry x="15" y="10" width="255" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-81" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="675" y="790" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-66" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-81">
+          <mxGeometry width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-67" value="&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;(Optional) Analyze the logs&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: normal; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Analyse the logs of the game to see a high number of request to transfer money, indicating a possible race condition exploit&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-81">
+          <mxGeometry x="15" y="10" width="265" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-84" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="680" y="30" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-78" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-84">
+          <mxGeometry width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-79" value="&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;Restart the game service&amp;nbsp;&lt;/h2&gt;&lt;pre style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: normal; font-family: Helvetica; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Restart the systemd service to rebuild the game and publish the patched version&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-84">
+          <mxGeometry x="15" y="10" width="275" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-85" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="690" y="160" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-75" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-85">
+          <mxGeometry width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-76" value="&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Patch de game&lt;/span&gt;&lt;/h2&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;Patch the game from the race condition with a mutex or other technics. Can optionnally patch de sql injection&lt;/span&gt;&lt;/h2&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-85">
+          <mxGeometry x="15" y="10" width="255" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-86" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="655" y="315.45" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-72" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-86">
+          <mxGeometry width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-73" value="&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Privilege escalation : systemd&lt;/span&gt;&lt;/h2&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 12px; font-weight: 400;&quot;&gt;T1068&lt;/span&gt;&lt;/h2&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Use systemd CVE-2023-26604 to escalate as root&lt;/span&gt;&lt;/h2&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-86">
+          <mxGeometry x="15" y="10" width="315" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-87" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="665" y="460" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-69" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-87">
+          <mxGeometry width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-70" value="&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Privilege escalation : cron job&lt;/span&gt;&lt;/h2&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 12px; font-weight: 400;&quot;&gt;T1053.003&lt;/span&gt;&lt;/h2&gt;&lt;h2 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Use a cron job that make backup from /tmp to copy your ssh in the admin authorized ssh keys&lt;/span&gt;&lt;/h2&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;container=0;" vertex="1" parent="8Rnsziw4uOwpHe0W4yz_-87">
+          <mxGeometry x="15" y="10" width="305" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-42" target="8Rnsziw4uOwpHe0W4yz_-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="770" />
+              <mxPoint x="825" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-63" target="8Rnsziw4uOwpHe0W4yz_-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-69" target="8Rnsziw4uOwpHe0W4yz_-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-72" target="8Rnsziw4uOwpHe0W4yz_-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-75" target="8Rnsziw4uOwpHe0W4yz_-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Rnsziw4uOwpHe0W4yz_-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Rnsziw4uOwpHe0W4yz_-63" target="8Rnsziw4uOwpHe0W4yz_-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
