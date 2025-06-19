@@ -15,15 +15,22 @@ var blackImage []byte
 //go:embed room.jpg
 var room []byte
 
-//go:embed unlocked.jpg
-var unlocked []byte
+//go:embed unlock-lock.jpg
+var unlockLock []byte
 
-//go:embed locked.jpg
-var locked []byte
+//go:embed lock-unlock.jpg
+var lockUnlock []byte
+
+//go:embed unlock-unlock.jpg
+var unlockUnlock []byte
+
+//go:embed lock-lock.jpg
+var lockLock []byte
 
 var hasLight = false
 var inRoom = true
-var isLock = false
+var isLockDoor = false
+var isLockRobot = false
 
 // Constants and variables
 var (
@@ -104,7 +111,7 @@ password123
 Role: Administrator
 
 operator
-operator123
+password123
 Role: Operator
 
 Video:
@@ -146,10 +153,15 @@ func snapshotHandler(w http.ResponseWriter, r *http.Request) {
 			w.Write(room)
 		}
 	} else {
-		if isLock {
-			w.Write(locked)
-		} else {
-			w.Write(unlocked)
+		switch true {
+		case isLockDoor && isLockRobot:
+			w.Write(lockLock)
+		case !isLockDoor && isLockRobot:
+			w.Write(unlockLock)
+		case isLockDoor && !isLockRobot:
+			w.Write(lockUnlock)
+		case !isLockDoor && !isLockRobot:
+			w.Write(unlockUnlock)
 		}
 	}
 }
@@ -194,7 +206,17 @@ func blockDoor(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Unauthorized", http.StatusUnauthorized)
 		return
 	}
-	isLock = true
+	isLockDoor = true
+	w.Write([]byte{1})
+}
+
+func blockRobot(w http.ResponseWriter, r *http.Request) {
+	auth := r.URL.Query().Get("auth")
+	if !isValidAuth(auth) {
+		http.Error(w, "Unauthorized", http.StatusUnauthorized)
+		return
+	}
+	isLockRobot = true
 	w.Write([]byte{1})
 }
 
@@ -241,6 +263,8 @@ func main() {
 	http.HandleFunc("/onvif-http/snapshot", snapshotHandler)
 	http.HandleFunc("/light", turnLight)
 	http.HandleFunc("/location", switchCamera)
+	http.HandleFunc("/door", blockDoor)
+	http.HandleFunc("/robot", blockRobot)
 	http.HandleFunc("/ping", func(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte("pong"))
 	})

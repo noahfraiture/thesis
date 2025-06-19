@@ -5,8 +5,8 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
-#define SERVER_IP "10.0.2.2"
-#define SERVER_PORT 8888
+#define SERVER_IP "127.0.0.1"
+#define SERVER_PORT 1881
 
 struct robot_control {
   char id[16];
@@ -47,7 +47,7 @@ int execute_command(char *command) {
   if (strcmp(command, "forward") == 0) {
     const char *message = "forward";
 
-    if (send_message(message)) {
+    if (send_message("robot")) {
       perror("Send failed");
       return 1;
     }
@@ -111,7 +111,7 @@ int lock_control() {
   input[strcspn(input, "\n")] = 0;
   if (strcmp(input, deobfuscated) == 0) {
     printf("Access granted, switch lock!\n");
-    return send_message("lock");
+    return send_message("door");
   } else {
     printf("Access denied!\n");
   }

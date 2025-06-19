@@ -139,18 +139,16 @@ in
         username = "operator";
         homeDirectory = "/home/operator";
         stateVersion = "24.11";
-        sessionVariables = {
-          BEARER = "0c497d24da14cde5f5b947f7920d4df20189d9b1ad3302b9b31afd1ec1918f1b";
-        };
       };
     };
   };
+  environment.variables.BEARER = "0c497d24da14cde5f5b947f7920d4df20189d9b1ad3302b9b31afd1ec1918f1b";
 
   system.activationScripts.history = pkgs.lib.stringAfter [ "users" ] ''
-    echo "curl http://localhost:1880/next -H 'Authorization: Bearer $KEY'" >> /home/operator/.bash_history
-    rm -r /home/operator/robot.o
-    cp /home/env-admin/nixos/hosts/dashboard/robot.o /home/operator/robot.o
-    chmod +x /home/operator/robot.o
+    echo "curl http://dashboard/next -H 'Authorization: Bearer $KEY'" > /home/operator/.bash_history
+    rm -r /home/operator/robot
+    cp /home/env-admin/nixos/hosts/dashboard/robot /home/operator/robot
+    chmod +x /home/operator/robot
   '';
 
 }

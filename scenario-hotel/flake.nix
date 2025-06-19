@@ -17,9 +17,17 @@
         buildInputs = with pkgs; [
         ];
 
-        packages = with pkgs; [
-          gcc
-        ];
+        packages =
+          with pkgs;
+          [
+            gcc
+            nmap
+            python312
+          ]
+          ++ (with pkgs.python312Packages; [
+            requests
+            pycryptodome
+          ]);
 
         DIRENV = "env";
       };
