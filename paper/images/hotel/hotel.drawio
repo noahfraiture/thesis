@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0" version="27.1.6">
+  <diagram name="Page-1" id="to2UKtNX8de_iJjbzMK1">
+    <mxGraphModel dx="831" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6h2osbkjuhzAj3kaCzSF-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="209.75" y="280" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6h2osbkjuhzAj3kaCzSF-2" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#a20025;strokeColor=#6F0000;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.people_places_things_icons.icon8;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="260" y="380" width="19.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6h2osbkjuhzAj3kaCzSF-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="329.75" y="240" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6h2osbkjuhzAj3kaCzSF-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-vol-3/24/_video-128.png;rotation=45;" parent="1" vertex="1">
+          <mxGeometry x="213" y="282" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6h2osbkjuhzAj3kaCzSF-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-vol-3/24/_video-128.png;rotation=45;" parent="1" vertex="1">
+          <mxGeometry x="334.00320343559645" y="282.00320343559645" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6h2osbkjuhzAj3kaCzSF-8" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.floorplan.doorRight;aspect=fixed;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="331" y="350" width="38.24" height="40.63" as="geometry" />
+        </mxCell>
+        <mxCell id="6h2osbkjuhzAj3kaCzSF-9" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-regular-vol-4/256/robot-128.png;rotation=35;" parent="1" vertex="1">
+          <mxGeometry x="395" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o9JXCZAGIBJ6faMnXe8c-1" value="Corridor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="359.75" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o9JXCZAGIBJ6faMnXe8c-2" value="Room" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="239.75" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

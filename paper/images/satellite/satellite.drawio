@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0" version="27.1.6">
+  <diagram name="Page-1" id="avHri6I0bo3UYR9Jiavg">
+    <mxGraphModel dx="831" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zNw0OpDTaeCPMk53o1SG-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="130" y="40" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="zNw0OpDTaeCPMk53o1SG-1" value="" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.satellite;network2IconXOffset=0.0149;network2IconYOffset=-0.00046;network2IconW=1.1553;network2IconH=0.9741;" parent="1" vertex="1">
+          <mxGeometry x="340" y="70" width="57.765" height="48.705" as="geometry" />
+        </mxCell>
+        <mxCell id="zNw0OpDTaeCPMk53o1SG-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" parent="1" vertex="1">
+          <mxGeometry x="250" y="70" width="28.000000000000004" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zNw0OpDTaeCPMk53o1SG-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" parent="1" vertex="1">
+          <mxGeometry x="150" y="69.35000000000002" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zNw0OpDTaeCPMk53o1SG-4" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/DNS.svg;" parent="1" vertex="1">
+          <mxGeometry x="190" y="160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zNw0OpDTaeCPMk53o1SG-5" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#008a00;strokeColor=#005700;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.people_places_things_icons.icon8;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="30" y="68.70999999999998" width="19.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zNw0OpDTaeCPMk53o1SG-7" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="94.70999999999998" as="sourcePoint" />
+            <mxPoint x="140" y="94.70999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zNw0OpDTaeCPMk53o1SG-8" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="287" y="95.11000000000001" as="sourcePoint" />
+            <mxPoint x="337" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zNw0OpDTaeCPMk53o1SG-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="236" y="160" as="sourcePoint" />
+            <mxPoint x="263" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zNw0OpDTaeCPMk53o1SG-10" value="&lt;i&gt;satellite.app&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="139" width="72" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
