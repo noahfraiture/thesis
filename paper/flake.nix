@@ -31,6 +31,7 @@
         ];
 
         packages = with pkgs; [
+          tinymist
           typst
           texliveFull
           pdftk
